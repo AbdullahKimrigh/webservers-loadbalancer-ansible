@@ -1,0 +1,6 @@
+[webservers]
+web1 ansible_host=ec2-44-202-6-188.compute-1.amazonaws.com
+web2 ansible_host=ec2-3-95-26-129.compute-1.amazonaws.com
+
+[loadbalancer]
+lb ansible_host=ec2-54-205-158-153.compute-1.amazonaws.com ansible_connection=local
